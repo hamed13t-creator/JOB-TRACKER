@@ -1,6 +1,6 @@
 {
   "id": "./",
-  "name": "Expat Job Tracker",
+  "name": "Job Tracker",
   "short_name": "Job Tracker",
   "description": "Track job applications abroad and rank them against your CV.",
   "start_url": "./#jobs",
