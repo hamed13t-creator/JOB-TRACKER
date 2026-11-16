@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Expat Job Tracker</title>
+<meta name="description" content="Track job applications abroad and rank them against your CV. Works offline; your data stays on your phone.">
+<meta name="theme-color" content="#1d4f7c" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1820" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="./css/app.css">
+<script type="module" src="./js/app.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><img src="./icons/icon.svg" alt="" width="28" height="28"><span>Expat Job Tracker</span></div>
+  <nav id="nav" class="nav" aria-label="Main"></nav>
+</header>
+<main class="wrap">
+  <div class="stats" id="stats" role="group"></div>
+  <section id="v-jobs" class="view"></section>
+  <section id="v-find" class="view" hidden></section>
+  <section id="v-cv" class="view" hidden></section>
+  <section id="v-more" class="view" hidden></section>
+  <noscript><p>This app needs JavaScript.</p></noscript>
+</main>
+<dialog id="jobDlg" class="dlg"></dialog>
+<div id="print"></div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
